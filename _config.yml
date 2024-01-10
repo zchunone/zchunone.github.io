@@ -62,30 +62,30 @@ content:
     content: |
       Consumer behavior, Corporate governance, Analysis of corporate profitability capability
 
-  - title: Internship # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Ruihua Certified Public Accountants
-        link: http://www.rhcncpa.com
-        # link_text: boringcompany.com
-        sub_title: Audit Intern
-        caption: 2019.01 - 2019.02
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Participated in the annual audit project of 12 companies in Shenzhen, Guangzhou, and other places, and assisted the project manager in data sorting; Fill in the audit papers of bank deposits, fixed assets, and current accounts; Take inventory of fixed assets and cash of the largest shipping enterprise in mainland China.
+  # - title: Internship # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Ruihua Certified Public Accountants
+  #       link: http://www.rhcncpa.com
+  #       # link_text: boringcompany.com
+  #       sub_title: Audit Intern
+  #       caption: 2019.01 - 2019.02
+  #       # quote: >
+  #       #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  #       description: | # this will include new lines to allow paragraphs
+  #           Participated in the annual audit project of 12 companies in Shenzhen, Guangzhou, and other places, and assisted the project manager in data sorting; Fill in the audit papers of bank deposits, fixed assets, and current accounts; Take inventory of fixed assets and cash of the largest shipping enterprise in mainland China.
 
-      - layout: left
-        title: Hunan Jinwei Construction Co., Ltd.
-        link: http://hnjwjs.com
-        # link_text: boringcompany.com
-        sub_title: Accountant assistant
-        caption: 2016.07 - 2016.09
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Prepared and sorted out the accounting vouchers of the current month, scanned and filed the original vouchers. Learn to use Kingdee software.
+  #     - layout: left
+  #       title: Hunan Jinwei Construction Co., Ltd.
+  #       link: http://hnjwjs.com
+  #       # link_text: boringcompany.com
+  #       sub_title: Accountant assistant
+  #       caption: 2016.07 - 2016.09
+  #       # quote: >
+  #       #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  #       description: | # this will include new lines to allow paragraphs
+  #           Prepared and sorted out the accounting vouchers of the current month, scanned and filed the original vouchers. Learn to use Kingdee software.
 
   - title: Skills
     layout: text
