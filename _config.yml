@@ -1,0 +1,111 @@
+# Site
+repository: schenglee/schenglee.github.io
+favicon: images/icon.png
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Zhechun Wang
+title: PhD student
+email: wangzhechunwang@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+# github_username:  schenglee
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: google_scholar
+#   icon: images/google-scholar-square.jpg
+#   url: https://scholar.google.com/citations?user=Nec2b_oAAAAJ
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/selfie.png
+about_content: | # this will include new lines to allow paragraphs
+  I was admitted to Hunan University of Finance and Economics in September 2015 and obtained my Bachelor's degree in the Accounting Department in June 2019. In that same year, I was accepted to pursue a Master's degree at the University of Nottingham, specializing in Accounting and Finance. I completed my Master's degree in December 2020. Subsequently, I was admitted to Stamford International University, where I am currently pursuing a Ph.D. degree under the guidance of [Prof. Chanchai Bunchapattanasakda](https://scholar.google.com/citations?user=ybduy48AAAAJ&hl=th).
+
+content:
+  - title: Education
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      * ***Stamford International University***, **Student pursuing a PhD. degree**, 2022.3 - Now
+      * ***The University of Nottingham***, Accounting and Finance, **Master degree**, 2019.9 - 2020.12
+      * ***Hunan University of Finance and Economics***, Accounting, **Bachelor degree**, 2015.9 - 2019.6
+
+  - title: Research interests # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      Consumer behavior, Corporate governance, Analysis of corporate profitability capability
+
+  - title: Internship # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Ruihua Certified Public Accountants
+        link: http://www.rhcncpa.com
+        # link_text: boringcompany.com
+        sub_title: Audit Intern
+        caption: 2019.01 - 2019.02
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Participated in the annual audit project of 12 companies in Shenzhen, Guangzhou, and other places, and assisted the project manager in data sorting; Fill in the audit papers of bank deposits, fixed assets, and current accounts; Take inventory of fixed assets and cash of the largest shipping enterprise in mainland China.
+
+      - layout: left
+        title: Hunan Jinwei Construction Co., Ltd.
+        link: http://hnjwjs.com
+        # link_text: boringcompany.com
+        sub_title: Accountant assistant
+        caption: 2016.07 - 2016.09
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Prepared and sorted out the accounting vouchers of the current month, scanned and filed the original vouchers. Learn to use Kingdee software.
+
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - English: IELTS, CET6
+      - Software Skill: Proficient in Excel functions and applications
+      - Interest: Running, history, debate, film and video clips, squash
+      - Other: ACCA passed 5 exams, among which F4 was the company corporate and business law
+
+
+# Footer
+footer_show_references: true
+# references_title: National Key Laboratory for Novel Software Technology, Nanjing University, Xianlin Campus, 163 Xianlin Avenue, Qixia District, Nanjing 210023, China
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
